@@ -1,0 +1,439 @@
+/* Reset some default styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#main {
+  background-color: rgba(112, 128, 144, 0.387);
+}
+
+/* Styling for the navigation */
+nav {
+  background-color: rgba(112, 128, 144, 0.529);
+  color: #fff;
+  text-align: left;
+  padding: 1rem;
+}
+
+nav ul {
+  list-style: none;
+}
+nav ul i {
+  display: block;
+  margin-right: 20px;
+  float: right;
+}
+nav li {
+  display: inline-block;
+  margin-right: 20px;
+}
+
+nav a {
+  color: black;
+  text-decoration: none;
+  font-size: 25px;
+  font-weight: 600;
+}
+
+/* Styling for the header */
+header {
+  display: flex;
+  height: 100%;
+  width: 100%;
+}
+#home {
+  /* background-color: #6b3c3c; */
+  display: flex;
+  height: 100%;
+  width: 100%;
+}
+#button {
+  background-color: tomato;
+  padding: 10px;
+  margin: 5px;
+  border: none;
+  font-family: sans-serif;
+  font-size: 1rem;
+}
+#button:hover {
+  background-color: #d9c171;
+}
+#left {
+  text-align: left;
+  padding: 2rem;
+  display: block;
+  height: 100%;
+  width: 100%;
+  margin-top: 4rem;
+}
+#left ul {
+  margin: 1rem;
+}
+#left ul i {
+  padding: 2px;
+  font-size: 20px;
+}
+#left h2 {
+  font-size: 18px;
+}
+#left h1 {
+  font-size: 2rem;
+  padding-top: 5px;
+  margin-bottom: 20px;
+}
+#left p {
+  font-size: 1rem;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+#middle {
+  display: block;
+  padding: 2rem;
+}
+
+#middle img {
+  height: 80vh;
+  border-radius: 8px;
+  border-bottom-right-radius: 50px;
+  border-top-left-radius: 50px;
+}
+#right {
+  width: 100%;
+  margin-top: 4.5rem;
+}
+#right h1 {
+  border-color: #333;
+  border-width: 1px;
+  border-radius: 4px;
+  border-style: solid;
+  border-top-right-radius: 16px;
+  border-bottom-right-radius: 16px;
+  width: 83%;
+  font-size: 1.5rem;
+  margin: 1rem;
+  padding: 1rem;
+
+  /* box-shadow:1px 2px 2px rgb(19, 22, 61); */
+  box-shadow: 0px 1px 1px 0px;
+  color: #0d0c0c;
+}
+span {
+  color: red;
+  font-size: 2rem;
+}
+
+section {
+  padding: 2rem;
+}
+
+#about {
+  display: flex;
+  height: 100%;
+  width: 100%;
+}
+#about-1 {
+  display: block;
+  height: 100%;
+  width: 100%;
+}
+#about-1 h1 {
+  font-size: 2.5rem;
+  padding-bottom: 2rem;
+  text-align: center;
+  color: black;
+}
+#about-1 p {
+  text-align: justify;
+  font-size: 1.5rem;
+  padding: 0.5rem;
+  color: black;
+}
+#about-1 #button {
+  margin-top: 1rem;
+  font-size: 1rem;
+}
+.pfsection {
+  display: flex;
+  height: 100%;
+  width: 100%;
+}
+
+.projects h1 {
+  color: #8c2525;
+  text-align: center;
+  margin-top: 2rem;
+}
+
+.projects {
+  display: block;
+  height: 100%;
+  width: 100%;
+}
+.project-desc {
+  text-align: center;
+  text-align: justify;
+  padding: 10px;
+}
+#portfolio {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.skills h1 {
+  font-size: 2rem;
+  color: #04aa6d;
+  float: left;
+}
+.skills h2 {
+  font-weight: 400;
+  letter-spacing: 1px;
+  margin-top: 60px;
+  margin-bottom: 5px;
+  color: black;
+  font-size: 20px;
+}
+
+.progress-bar {
+  background-color: #f4f5f5;
+  width: 18rem;
+  height: 10px;
+  border-radius: 5px;
+}
+
+.progress-bar div {
+  height: 10px;
+  border-radius: 5px;
+  width: 0%;
+}
+
+.progress-bar div span {
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+  background-color: white;
+  float: right;
+  margin-top: -15px;
+  margin-right: -20px;
+  color: #04aa6d;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.html {
+  background-color: #f15b5b7a;
+  animation: html 1s linear forwards;
+}
+.css {
+  background-color: blue;
+  animation: css 1s linear forwards;
+}
+.javascript {
+  background-color: #0d0c0c;
+  animation: javascript 1s linear forwards;
+}
+.reactjs {
+  background-color: aquamarine;
+  animation: reactjs 1s linear forwards;
+}
+
+@keyframes html {
+  100% {
+    width: 86%;
+  }
+}
+@keyframes css {
+  100% {
+    width: 65%;
+  }
+}
+@keyframes javascript {
+  100% {
+    width: 78%;
+  }
+}
+@keyframes reactjs {
+  100% {
+    width: 46%;
+  }
+}
+
+.progress-bar span {
+  border: 1px solid #d9c171;
+  font-size: 1rem;
+}
+
+#contact {
+  background-color: rgba(128, 128, 128, 0.588);
+  display: flex;
+  height: 100%;
+  width: 100%;
+}
+#contact h1 {
+  font-size: 2.5rem;
+  text-align: center;
+  color: slategray;
+  padding-bottom: 1rem;
+}
+.contact img {
+  border-radius: 8px;
+  border-bottom-right-radius: 20px;
+  border-top-left-radius: 20px;
+  height: 6rem;
+}
+.contact label {
+  font-size: 1.5rem;
+  font-family: "Courier New", Courier, monospace;
+  font-weight: 600;
+  color: slategray;
+}
+.contact h2 a {
+  font-size: 1.2rem;
+  text-decoration: none;
+  text-align: center;
+}
+
+.contact {
+  border-radius: 8px;
+  box-shadow: 0px 1px 1px 0px;
+  background-color: whitesmoke;
+  padding: 20px;
+
+  width: 50%;
+  margin-bottom: 2rem;
+  height: 50%;
+  margin-right: 30px;
+  text-align: center;
+}
+
+input[type="text"],
+input[type="email"],
+select,
+textarea {
+  width: 100%;
+  padding: 12px;
+  color: black;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type="submit"] {
+  background-color: tomato;
+  color: black;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 1rem;
+}
+
+input[type="submit"]:hover {
+  background-color: #d9c171;
+}
+
+.container {
+  border-radius: 8px;
+  background-color: #f2f2f2;
+  padding: 20px;
+  width: 50%;
+  margin-top: 4rem;
+  height: 50%;
+  border-radius: 5px;
+  box-shadow: 0px 1px 1px 0px;
+  font-family: sans-serif;
+  font-weight: 600;
+}
+a {
+  text-decoration: none;
+}
+#fa{
+  display: none;
+}
+
+/* Styling for the footer */
+footer {
+  background-color: black;
+  color: #fff;
+  text-align: center;
+  padding: 1rem;
+}
+
+/* Media Query for Responsive Design */
+@media (max-width: 768px) {
+  header h1 {
+    font-size: 2rem;
+  }
+  span {
+    font-size: 1rem;
+  }
+
+  header p {
+    font-size: 1rem;
+  }
+  #home {
+    display: block;
+  }
+  #middle img {
+    height: auto;
+    width: 100%;
+  }
+  #right h1 {
+    font-size: 25px;
+    padding: 1rem;
+    float: left;
+    margin-left: 2rem;
+  }
+  #right {
+    padding: 0rem;
+    margin-top: 0rem;
+  }
+  #about {
+    display: block;
+  }
+
+  #contact h1 {
+    text-align: center;
+  }
+
+  #contact {
+    display: block;
+  }
+  .contact {
+    height: 100%;
+    width: 100%;
+  }
+  .contact h2 a {
+    font-size: 1rem;
+  }
+  .container {
+    height: 100%;
+    width: 100%;
+  }
+  .pfsection {
+    display: block;
+    height: 100%;
+    width: 100%;
+  }
+  #about-1 #button {
+    margin-top: 1rem;
+    font-size: 1rem;
+    margin-left: 3rem; 
+  }
+
+  #fa{
+    display: block;
+  }
+  ul {
+    display: none;
+  }
+  a i {
+    margin-left: 90%;
+  }
+  /* Adjust other styles as needed for smaller screens */
+}
