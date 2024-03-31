@@ -1,5 +1,4 @@
-# Portfolio
+# Portfolio using html,css,js
 
-1.using html,css & js
-2.you can add your own image by making image folder.
-3.Full responsive.
+Live : https://aesthetic-manatee-6d2c43.netlify.app/
+
